@@ -1,0 +1,66 @@
+[
+    {
+       "id": 1,
+       "title": "Nike hoodie",
+       "category": "Dress",
+       "price": 45.78,
+       "image": "/src/assets/images/hoody.jpg",
+       "status": "Best Sellers"
+    },
+    {
+       "id": 2,
+       "title": "Nike Bag",
+       "category": "Bag",
+       "price": 124.00,
+       "image": "/src/assets/images/nike-air.jpg",
+       "status": "Best Sellers"
+    },
+    {
+       "id": 3,
+       "title": "Addidas hoodie",
+       "category": "Dress",
+       "price": 56.83,
+       "image": "/src/assets/images/store.jpg",
+       "status": "Best Sellers"
+    },
+    {
+       "id": 4,
+       "title": "Puma hoodie",
+       "category": "Hoodies",
+       "price": 65.53,
+       "image": "/src/assets/images/hoody.jpg",
+       "status": "Best Sellers"
+    },
+    {
+       "id": 5,
+       "title": "Nike Shoe",
+       "category": "Shoe",
+       "price": 58.98,
+       "image": "/src/assets/images/nike-air.jpg",
+       "status": "Best Sellers"
+    },
+    {
+       "id": 6,
+       "title": "Nike repel",
+       "category": "Dress",
+       "price": 120.55,
+       "image": "/src/assets/images/store.jpg",
+       "status": "Best Sellers"
+    },
+    {
+       "id": 7,
+       "title": "Puma Avalon",
+       "category": "Glasses",
+       "price": 45.97,
+       "image": "/src/assets/images/nike-air.jpg",
+       "status": "Best Sellers"
+    },
+    {
+       "id": 8,
+       "title": "Nike Paz",
+       "category": "Dress",
+       "price": 145.57,
+       "image": "/src/assets/images/hoody.jpg",
+       "status": "Best Sellers"
+    }
+]
