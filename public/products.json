@@ -10,7 +10,7 @@
     {
        "id": 2,
        "title": "Nike Bag",
-       "category": "Bag",
+       "category": "Bags",
        "price": 124.00,
        "image": "/src/assets/images/nike-air.jpg",
        "status": "Best Sellers"
@@ -34,7 +34,7 @@
     {
        "id": 5,
        "title": "Nike Shoe",
-       "category": "Shoe",
+       "category": "Shoes",
        "price": 58.98,
        "image": "/src/assets/images/nike-air.jpg",
        "status": "Best Sellers"
@@ -42,7 +42,7 @@
     {
        "id": 6,
        "title": "Nike repel",
-       "category": "Dress",
+       "category": "Bags",
        "price": 120.55,
        "image": "/src/assets/images/store.jpg",
        "status": "Best Sellers"

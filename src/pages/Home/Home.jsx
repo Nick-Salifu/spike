@@ -1,4 +1,5 @@
 import Category from "./Category"
+import Collections from "./Collections"
 import Hero from "./Hero"
 import Products from "./Products"
 
@@ -8,6 +9,7 @@ function Home() {
             <Hero />
             <Category />
             <Products />
+            <Collections />
         </div>
     )
 }
