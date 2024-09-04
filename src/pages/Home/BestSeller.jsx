@@ -18,7 +18,6 @@ function BestSeller() {
     }, []);
 
     const bestSeller = products.filter(item => item.status === "Best Sellers");
-    console.log(bestSeller)
 
     return (
         <div className="max-w-screen-2xl mx-auto container xl:px-28 px-4">

@@ -11,7 +11,7 @@ function Products() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("products.json");
+                const response = await fetch("/products.json");
                 const data = await response.json();
                 setProducts(data)
                 setFilteredItems(data)
