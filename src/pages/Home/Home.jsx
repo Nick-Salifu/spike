@@ -1,3 +1,4 @@
+import BestSeller from "./BestSeller"
 import Category from "./Category"
 import Collections from "./Collections"
 import Hero from "./Hero"
@@ -10,6 +11,7 @@ function Home() {
             <Category />
             <Products />
             <Collections />
+            <BestSeller />
         </div>
     )
 }
