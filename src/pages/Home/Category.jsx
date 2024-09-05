@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom"
-import hoody from "../../assets/images/hoody.jpg"
-import black from "../../assets/images/black-suit.jpg"
-import store from "../../assets/images/store.jpg"
+import black from "../../assets/images/black.jpg"
+import woman from "../../assets/images/woman.jpg"
 
 const companyLogo = [
     {id: 1, img: "Nick"},
@@ -28,16 +27,16 @@ function Category() {
 
                 <div>
                     <Link to="/">
-                        <img src={hoody} alt="" className="w-[40rem] hover:scale-105 transition-all duration-200" />
+                        <img src={black} alt="" className="w-[40rem] hover:scale-105 transition-all duration-200" />
                     </Link>
                 </div>
 
                 <div className="md:w-1/2">
                     <div className="grid grid-cols-2 gap-3">
-                        <Link to="/"><img src={hoody} alt="" className="w-full hover:scale-105 transition-all duration-200" /></Link>
-                        <Link to="/"><img src={store} alt="" className="w-full hover:scale-105 transition-all duration-200" /></Link>
-                        <Link to="/"><img src={store} alt="" className="w-full hover:scale-105 transition-all duration-200" /></Link>
-                        <Link to="/"><img src={hoody} alt="" className="w-full hover:scale-105 transition-all duration-200" /></Link>
+                        <Link to="/"><img src={black} alt="" className="w-full hover:scale-105 transition-all duration-200" /></Link>
+                        <Link to="/"><img src={woman} alt="" className="w-full hover:scale-105 transition-all duration-200" /></Link>
+                        <Link to="/"><img src={woman} alt="" className="w-full hover:scale-105 transition-all duration-200" /></Link>
+                        <Link to="/"><img src={black} alt="" className="w-full hover:scale-105 transition-all duration-200" /></Link>
                     </div>
                 </div>
             </div>

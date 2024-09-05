@@ -1,5 +1,5 @@
 import { FaShoppingBag } from "react-icons/fa"
-import store from "../../assets/images/store.jpg"
+import woman from "../../assets/images/woman.jpg"
 
 function Hero() {
     return (
@@ -17,7 +17,7 @@ function Hero() {
 
                 {/* right part of hero */}
                 <div className="md:w-1/2">
-                    <img src={store} alt="" className="w-full" />
+                    <img src={woman} alt="" className="w-full" />
                 </div>
             </div>
         </div>

@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
-import hoody from "../../assets/images/hoody.jpg";
+import black from "../../assets/images/black.jpg";
 import air from "../../assets/images/nike-air.jpg";
-import store from "../../assets/images/store.jpg";
+import woman from "../../assets/images/woman.jpg";
+
 
 function NewsLetter() {
     return (
@@ -10,19 +11,19 @@ function NewsLetter() {
 
             <div className="flex items-center flex-wrap gap-4 justify-center mb-20">
                 <Link to="/">
-                    <img src={hoody} alt="" className="w-80" />
+                    <img src={black} alt="" className="w-80" />
                 </Link>
                 <Link to="/">
-                    <img src={store} alt="" className="w-80" />
+                    <img src={woman} alt="" className="w-80" />
                 </Link>
                 <Link to="/">
                     <img src={air} alt="" className="w-80" />
                 </Link>
                 <Link to="/">
-                    <img src={store} alt="" className="w-80" />
+                    <img src={woman} alt="" className="w-80" />
                 </Link>
                 <Link to="/">
-                    <img src={hoody} alt="" className="w-80" />
+                    <img src={black} alt="" className="w-80" />
                 </Link>
             </div>
 
