@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 function BestSeller() {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        fetch("products.json").then(res => res.json()).then(data => setProducts(data))
+        fetch("/products.json").then(res => res.json()).then(data => console.log(data))
     }, []);
 
     const bestSeller = products.filter(item => item.status === "Best Sellers");
