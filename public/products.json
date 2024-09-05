@@ -4,7 +4,7 @@
        "title": "Nike hoodie",
        "category": "Dress",
        "price": 45.78,
-       "image": "/src/assets/images/hoody.jpg",
+       "image": "/src/assets/images/black.jpg",
        "status": "Best Sellers"
     },
     {
@@ -12,7 +12,7 @@
        "title": "Nike Bag",
        "category": "Bags",
        "price": 124.00,
-       "image": "/src/assets/images/nike-air.jpg",
+       "image": "/src/assets/images/star.jpg",
        "status": "Best Sellers"
     },
     {
@@ -20,7 +20,7 @@
        "title": "Addidas hoodie",
        "category": "Dress",
        "price": 56.83,
-       "image": "/src/assets/images/store.jpg",
+       "image": "/src/assets/images/woman.jpg",
        "status": "New Arrivals"
     },
     {
@@ -28,7 +28,7 @@
        "title": "Puma hoodie",
        "category": "Hoodies",
        "price": 65.53,
-       "image": "/src/assets/images/hoody.jpg",
+       "image": "/src/assets/images/black.jpg",
        "status": "New Arrivals"
     },
     {
@@ -36,7 +36,7 @@
        "title": "Nike Shoe",
        "category": "Shoes",
        "price": 58.98,
-       "image": "/src/assets/images/nike-air.jpg",
+       "image": "/src/assets/images/star.jpg",
        "status": "Best Sellers"
     },
     {
@@ -44,7 +44,7 @@
        "title": "Nike repel",
        "category": "Bags",
        "price": 120.55,
-       "image": "/src/assets/images/store.jpg",
+       "image": "/src/assets/images/woman.jpg",
        "status": "Best Sellers"
     },
     {
@@ -60,7 +60,7 @@
        "title": "Nike Paz",
        "category": "Dress",
        "price": 145.57,
-       "image": "/src/assets/images/hoody.jpg",
+       "image": "/src/assets/images/black.jpg",
        "status": "Best Sellers"
     }
 ]
