@@ -77,8 +77,8 @@ function Products() {
                         <button onClick={() => filterItems("Shoes")}>Shoes</button>
                     </div>
 
-                    <div className="flex justify-end mb-4 rounded-sm">
-                        <div className="bg-black p-2">
+                    <div className="flex justify-end mb-4">
+                        <div className="bg-black p-2 rounded-sm">
                             <FaFilter className="w-4 h-4 text-white" />
                         </div>
                         <div>
@@ -86,7 +86,7 @@ function Products() {
                                 id="sort"
                                 value={sortItems}
                                 onChange={(e) => handleSorting(e.target.value)}
-                                className="bg-black text-white rounded-sm px-2 py-1">
+                                className="bg-black text-white rounded-sm px-3 py-1">
                                 <option value="default">Default</option>
                                 <option value="A-Z">A-Z</option>
                                 <option value="Z-A">Z-A</option>
