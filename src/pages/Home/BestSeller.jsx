@@ -61,7 +61,7 @@ function BestSeller() {
                         bestSeller.map((product) => (
                             <SwiperSlide key={product.id}>
                                 <Link to={`/shop/${product.id}`}>
-                                     <img src={product.image} alt="" className="w-20 hover:scale-105 transition-all duration-300" />
+                                     <img src={product.image} alt="product image" className="w-full h-auto hover:scale-105 transition-all duration-300" />
                                 </Link>
                                 <div className="mt-4 px-4">
                                     <h4 className="text-base font-semibold">{product.title}</h4>
