@@ -15,7 +15,7 @@ function BestSeller() {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        fetch("/products.json").then(res => res.json()).then(data => setProducts(data))
+        fetch("products.json").then(res => res.json()).then(data => setProducts(data))
     }, []);
 
     const bestSeller = products.filter(item => item.status === "Best Sellers");
