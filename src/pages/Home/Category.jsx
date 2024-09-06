@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
-import black from "../../assets/images/black.jpg"
-import woman from "../../assets/images/woman.jpg"
+import black from "../../../public/images/black.jpg"
+import woman from "../../../public/images/woman.jpg"
 
 const companyLogo = [
     {id: 1, img: "Nick"},

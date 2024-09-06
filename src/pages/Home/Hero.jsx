@@ -1,5 +1,5 @@
 import { FaShoppingBag } from "react-icons/fa"
-import woman from "../../assets/images/woman.jpg"
+import woman from "../../../public/images/woman.jpg"
 
 function Hero() {
     return (
