@@ -60,7 +60,23 @@
        "title": "Nike Paz",
        "category": "Dress",
        "price": 145.57,
-       "image": "/src/assets/images/black.jpg",
+       "image": "/src/assets/images/glass.jpg",
+       "status": "Best Sellers"
+    },
+    {
+       "id": 9,
+       "title": "swelt Glasses",
+       "category": "Glasses",
+       "price": 145.57,
+       "image": "/src/assets/images/glass.jpg",
+       "status": "New Arrivals"
+    },
+    {
+       "id": 10,
+       "title": "swelt Glasses",
+       "category": "Glasses",
+       "price": 145.57,
+       "image": "/src/assets/images/nike-air.jpg",
        "status": "Best Sellers"
     }
 ]

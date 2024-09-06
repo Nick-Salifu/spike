@@ -74,19 +74,18 @@ function Products() {
                         <button onClick={() => filterItems("Dress")}>Clothings</button>
                         <button onClick={() => filterItems("Hoodies")}>Hoodies</button>
                         <button onClick={() => filterItems("Bags")}>Bags</button>
-                        <button onClick={() => filterItems("Shoes")}>Shoes</button>
                     </div>
 
-                    <div className="flex justify-end mb-4">
-                        <div className="bg-black p-2 rounded-sm">
-                            <FaFilter className="w-4 h-4 text-white" />
+                    <div className="flex justify-end mb-4 relative">
+                        <div className="bg-black p-2 rounded-sm absolute -left-7">
+                            <FaFilter className="w-4 h-[15px] text-white" />
                         </div>
                         <div>
                             <select
                                 id="sort"
                                 value={sortItems}
                                 onChange={(e) => handleSorting(e.target.value)}
-                                className="bg-black text-white rounded-sm px-3 py-1">
+                                className="bg-black text-white rounded-sm px-3 py-1 focus:outline-none">
                                 <option value="default">Default</option>
                                 <option value="A-Z">A-Z</option>
                                 <option value="Z-A">Z-A</option>

@@ -7,7 +7,7 @@ function Cards({filteredItems}) {
                 filteredItems.slice(0, 8).map((item) => (
                     <div key={item.id}>
                         <Link to={`/shop/${item.id}`}>
-                            <img src={item.image} alt="" className="hover:scale-105 transition-all duration-300" />
+                            <img src={item.image} alt="products images" className="w-full hover:scale-105 transition-all duration-300" />
                         </Link>
                         <div className="mt-4 px-4">
                             <h4 className="text-base font-semibold">{item.title}</h4>
