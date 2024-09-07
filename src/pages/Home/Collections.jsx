@@ -1,7 +1,7 @@
 
 function Collections() {
     return (
-        <div className="bg-[url('../../../public/images/banner.jpg')] bg-cover bg-center bg-no-repeat xl:px-28 px-4 my-20">
+        <div className="bg-[url('../../../images/banner.jpg')] bg-cover bg-center bg-no-repeat xl:px-28 px-4 my-20">
             <div className="h-[560px] flex justify-between md:flex-row items-center">    
                 <div className="md:w-1/2">
                     {/* an image should be here */}
