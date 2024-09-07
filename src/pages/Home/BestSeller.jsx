@@ -21,10 +21,10 @@ function BestSeller() {
     const bestSeller = products.filter(item => item.status === "Best Sellers");
 
     return (
-        <div className="max-w-screen-2xl mx-auto container xl:px-28 px-4">
+        <div className="container px-4 mx-auto max-w-screen-2xl xl:px-28">
             <div className="text-center">
                 <h2 className="title">Best Sellers</h2>
-                <p className="text-Black/75 capitalize md:w-2/3 mx-auto mb-8">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel laborum distinctio voluptates voluptate similique harum facere eligendi inventore, repellendus optio possimus. Animi eum, officiis quae maiores laudantium doloribus quod quia.</p>
+                <p className="mx-auto mb-8 capitalize text-Black/75 md:w-2/3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel laborum distinctio voluptates voluptate similique harum facere eligendi inventore, repellendus optio possimus. Animi eum, officiis quae maiores laudantium doloribus quod quia.</p>
             </div>
             
             {/* best seller products card */}
@@ -53,7 +53,7 @@ function BestSeller() {
                             spaceBetween: 50,
                         },
                     }}
-                    navigation={true}
+                    navigation={false}
                     modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper"
                 >
@@ -61,9 +61,9 @@ function BestSeller() {
                         bestSeller.map((product) => (
                             <SwiperSlide key={product.id}>
                                 <Link to={`/shop/${product.id}`}>
-                                     <img src={`${product.image}`} alt="product image" className="w-full hover:scale-105 transition-all duration-300" />
+                                     <img src={`${product.image}`} alt="product image" className="w-full transition-all duration-300 hover:scale-105" />
                                 </Link>
-                                <div className="mt-4 px-4">
+                                <div className="px-4 mt-4">
                                     <h4 className="text-base font-semibold">{product.title}</h4>
                                     <div className="flex justify-between">
                                         <p className="text-black/50">{product.category}</p>
