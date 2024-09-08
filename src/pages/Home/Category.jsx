@@ -16,13 +16,13 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 
 const companyLogo = [
-    {id: 1, img: <img src="../../../public/images/logo_eight.jpg" alt="logo" />},
-    {id: 2, img: <img src="../../../public/images/logo_six.jpg" alt="logo" />},
-    {id: 3, img: <img src="../../../public/images/logo_five.jpg" alt="logo" />},
-    {id: 4, img: <img src="../../../public/images/logo_four.jpg" alt="logo" />},
-    {id: 5, img: <img src="../../../public/images/logo_three.jpg" alt="logo" />},
-    {id: 6, img: <img src="../../../public/images/logo_two.jpg" alt="logo" />},
-    {id: 7, img: <img src="../../../public/images/logo_one.jpg" alt="logo" />},
+    {id: 1, img: <img src="/images/logo_eight.jpg" alt="logo" />},
+    {id: 2, img: <img src="/images/logo_six.jpg" alt="logo" />},
+    {id: 3, img: <img src="/images/logo_five.jpg" alt="logo" />},
+    {id: 4, img: <img src="/images/logo_four.jpg" alt="logo" />},
+    {id: 5, img: <img src="/images/logo_three.jpg" alt="logo" />},
+    {id: 6, img: <img src="/images/logo_two.jpg" alt="logo" />},
+    {id: 7, img: <img src="/images/logo_one.jpg" alt="logo" />},
 ]
 
 function Category() {
