@@ -3,13 +3,13 @@ import woman from "../../../public/images/woman.jpg"
 
 function Hero() {
     return (
-        <div className="bg-primaryBG py-12 xl:px-28 px-4">
-            <div className="flex flex-col-reverse md:flex-row justify-between gap-14 py-24 items-center">
+        <div className="px-4 py-12 bg-primaryBG xl:px-28">
+            <div className="flex flex-col-reverse items-center justify-between py-24 md:flex-row gap-14">
                 {/* left part of hero */}
                 <div className="md:w-1/2">
-                    <h1 className="text-5xl font-light mb-5">Collections</h1>
-                    <p className="text-xl mb-7">You can explore and shop many different collections from various brands here</p>
-                    <button className="bg-Black hover:bg-blue-500 text-white px-6 py-2 font-semibold rounded-sm flex items-center gap-2">
+                    <h1 className="mb-5 text-5xl font-light">Collections</h1>
+                    <p className="max-w-md text-xl text-justify mb-7">Shop the latest trends, exclusive deals, and curated collections just for you. You can explore and shop many different collections from various brands here. You can hit the shop now button bellow and happy shopping</p>
+                    <button className="flex items-center gap-2 px-6 py-2 font-semibold text-white rounded-sm bg-Black hover:bg-blue-500">
                         <FaShoppingBag className="inline-flex" />
                         Shop Now
                     </button>
