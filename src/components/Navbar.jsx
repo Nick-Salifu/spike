@@ -23,7 +23,7 @@ function Navbar() {
         <header className="max-w-screen-2xl xl:px-28 px-4 absolute top-0 right-0 left-0">
             <nav className="flex items-center justify-between container md:py-4 pt-6 pb-3">
                 <IoIosSearch className="w-5 h-5 hidden text-Black md:block cursor-pointer" />
-                <h2 className="uppercase text-2xl font-semibold font-primaryFont tracking-wider">
+                <h2 className="uppercase text-2xl font-semibold font-headerFont tracking-wider">
                     <Link to="/">Spike</Link>
                 </h2>
 
