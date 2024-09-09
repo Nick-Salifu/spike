@@ -55,7 +55,7 @@ function Category() {
                         },
                     }}
                     navigation={false}
-                    modules={[Autoplay, Pagination, Navigation]}
+                    modules={[Autoplay, Navigation]}
                     className="mySwiper"
                 >
                     {companyLogo.map(({ id, img }) => (

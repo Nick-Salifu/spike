@@ -54,7 +54,7 @@ function BestSeller() {
                         },
                     }}
                     navigation={false}
-                    modules={[Autoplay, Pagination, Navigation]}
+                    modules={[Autoplay, Navigation]}
                     className="mySwiper"
                 >
                     {
@@ -63,12 +63,12 @@ function BestSeller() {
                                 <Link to={`/shop/${product.id}`}>
                                      <img src={`${product.image}`} alt="product image" className="w-full transition-all duration-300 hover:scale-105" />
                                 </Link>
-                                <div className="px-4 mt-4">
-                                    <h4 className="text-base font-semibold">{product.title}</h4>
-                                    <div className="flex justify-between">
+                                <div className="mt-4 text-center">
+                                    <h4 className="text-lg font-semibold">{product.title}</h4>
+                                    {/* <div className="flex justify-between">
                                         <p className="text-black/50">{product.category}</p>
                                         <p className="font-semibold">${product.price}</p>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </SwiperSlide>
                         ))

@@ -7,3 +7,6 @@
 .title{
     @apply text-3xl font-semibold text-center capitalize my-8
 }
+.active{
+    @apply border-b-2 border-blue-500
+}

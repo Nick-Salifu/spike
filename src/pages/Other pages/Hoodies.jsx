@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
 
-function Shoes() {
+function Hoodies() {
     const [items, setItems] = useState([])
 
     useEffect(() => {
@@ -8,7 +8,7 @@ function Shoes() {
             try {
                 const response = await fetch("/products.json");
                 const data = await response.json();
-                const product = data.filter((p) => p.category === "Shoes")
+                const product = data.filter((p) => p.category === "Hoodies")
                 // console.log(product)
                 setItems(product)
             } catch (error) {
@@ -18,12 +18,10 @@ function Shoes() {
         fetchData();
     }, [])
 
-    
-
     return (
         <div className="mt-28 max-w-screen-2xl mx-auto container xl:px-28 px-4">
             <div className="py-5 max-w-7xl">
-                <h1 className="title">Welcome to the shoes section</h1>
+                <h1 className="title">Welcome to the Hoodies section</h1>
 
                 <div className="mt-4 sm:mt-10">
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 h-max gap-10">
@@ -42,9 +40,8 @@ function Shoes() {
                     </div>
                 </div>
             </div>
-            
         </div>
     )
 }
 
-export default Shoes
+export default Hoodies

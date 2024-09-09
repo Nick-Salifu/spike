@@ -1,16 +1,16 @@
 import { IoIosSearch } from "react-icons/io";
-import { FaUser, FaShoppingBag, FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { FaUser, FaShoppingBag, FaBars, FaTimes, FaCartPlus } from "react-icons/fa";
+import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 
 function Navbar() {
     const navLinks = [
         {title: "Clothings & Dresses", path: "/"},
         {title: "Shoes & Flipflops", path: "/shoes&flipflops"},
-        {title: "Jewelries & Accessories", path: "/"},
+        {title: "Hoodies & Sweatshirts", path: "/hoodies"},
         {title: "Wedding & Party", path: "/"},
-        {title: "Toys and Entertainments", path: "/"},
-        {title: "Craft Supplies & Tools", path: "/"},
+        {title: "Wristwatches", path: "/"},
+        {title: "Face cap & Head warmers", path: "/"},
     ]
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -38,6 +38,11 @@ function Navbar() {
                         <FaShoppingBag />
                         <p>Shopping</p>
                     </div>
+
+                    <div className="flex items-center gap-2">
+                        <FaCartPlus />
+                        <p>Cart</p>
+                    </div>
                 </div>
 
                 {/* navlinks for mobile device */}
@@ -57,7 +62,7 @@ function Navbar() {
                 <ul className="hidden lg:flex justify-between items-center text-Black">
                     {navLinks.map(({title, path}) => (
                         <li key={title} className="hover:text-blue-500">
-                            <Link to={path}>{title}</Link>
+                            <NavLink to={path}>{title}</NavLink>
                         </li>
                     ))}
                </ul>
@@ -68,7 +73,7 @@ function Navbar() {
                 <ul className={`bg-Black text-white px-4 py-2 rounded ${isMenuOpen ? "" : "hidden"}`}>
                         {navLinks.map(({title, path}) => (
                             <li key={title} className="hover:text-blue-500 my-3 cursor-pointer">
-                                <Link to="/">{title}</Link>
+                                <NavLink to={path}>{title}</NavLink>
                             </li>
                         ))}
                 </ul>
