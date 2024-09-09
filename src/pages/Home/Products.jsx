@@ -78,7 +78,7 @@ function Products() {
 
                     <div className="flex justify-end mb-4 relative">
                         <div className="bg-black p-2 rounded-sm absolute -left-7">
-                            <FaFilter className="w-4 h-[0.92rem] md:h-[15px] text-white" />
+                            <FaFilter className="w-4 h-[0.8rem] md:h-[15px] text-white" />
                         </div>
                         <div>
                             <select
