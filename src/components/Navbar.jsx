@@ -5,9 +5,9 @@ import { useState } from "react";
 
 function Navbar() {
     const navLinks = [
+        {title: "Clothings & Dresses", path: "/"},
+        {title: "Shoes & Flipflops", path: "/shoes&flipflops"},
         {title: "Jewelries & Accessories", path: "/"},
-        {title: "Clothings & shoes", path: "/"},
-        {title: "Home & Living", path: "/"},
         {title: "Wedding & Party", path: "/"},
         {title: "Toys and Entertainments", path: "/"},
         {title: "Craft Supplies & Tools", path: "/"},
@@ -23,7 +23,9 @@ function Navbar() {
         <header className="max-w-screen-2xl xl:px-28 px-4 absolute top-0 right-0 left-0">
             <nav className="flex items-center justify-between container md:py-4 pt-6 pb-3">
                 <IoIosSearch className="w-5 h-5 hidden text-Black md:block cursor-pointer" />
-                <h2 className="uppercase text-2xl font-semibold font-primaryFont tracking-wider">spike</h2>
+                <h2 className="uppercase text-2xl font-semibold font-primaryFont tracking-wider">
+                    <Link to="/">Spike</Link>
+                </h2>
 
                 {/* account andd shopping */}
                 <div className="hidden sm:flex items-center gap-4 text-lg text-Black">
@@ -55,7 +57,7 @@ function Navbar() {
                 <ul className="hidden lg:flex justify-between items-center text-Black">
                     {navLinks.map(({title, path}) => (
                         <li key={title} className="hover:text-blue-500">
-                            <Link to="/">{title}</Link>
+                            <Link to={path}>{title}</Link>
                         </li>
                     ))}
                </ul>

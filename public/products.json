@@ -1,16 +1,16 @@
 [
     {
        "id": 1,
-       "title": "Nike hoodie",
-       "category": "Dress",
+       "title": "Gucci hoodie",
+       "category": "Hoodies",
        "price": 45.78,
        "image": "/images/black.jpg",
        "status": "Best Sellers"
     },
     {
        "id": 2,
-       "title": "Nike Bag",
-       "category": "Bags",
+       "title": "Timberland star",
+       "category": "shoes",
        "price": 124.00,
        "image": "/images/star.jpg",
        "status": "Best Sellers"
@@ -20,7 +20,7 @@
        "title": "Addidas hoodie",
        "category": "Dress",
        "price": 56.83,
-       "image": "/images/woman.jpg",
+       "image": "/images/black.jpg",
        "status": "New Arrivals"
     },
     {
@@ -33,58 +33,82 @@
     },
     {
        "id": 5,
-       "title": "Nike Shoe",
+       "title": "Nike coal",
        "category": "Shoes",
        "price": 58.98,
-       "image": "/images/star.jpg",
+       "image": "/images/black-nike.jpg",
        "status": "Best Sellers"
     },
     {
        "id": 6,
-       "title": "Nike repel",
-       "category": "Bags",
+       "title": "Channel",
+       "category": "Dress",
        "price": 120.55,
        "image": "/images/woman.jpg",
        "status": "Best Sellers"
     },
     {
        "id": 7,
-       "title": "Puma Avalon",
-       "category": "Glasses",
+       "title": "Nike Air",
+       "category": "Shoes",
        "price": 45.97,
        "image": "/images/nike-air.jpg",
        "status": "New Arrivals"
     },
     {
        "id": 8,
-       "title": "Nike Paz",
-       "category": "Dress",
+       "title": "Nico Deven",
+       "category": "Glasses",
        "price": 145.57,
        "image": "/images/glass.jpg",
        "status": "Best Sellers"
     },
     {
        "id": 9,
-       "title": "swelt Glasses",
-       "category": "Glasses",
+       "title": "Prada",
+       "category": "Dress",
        "price": 145.57,
        "image": "/images/glass.jpg",
        "status": "New Arrivals"
     },
     {
        "id": 10,
-       "title": "swelt Glasses",
-       "category": "Glasses",
+       "title": "Addidas coal",
+       "category": "Shoes",
        "price": 145.57,
-       "image": "/images/nike-air.jpg",
+       "image": "/images/black-addidas.jpg",
        "status": "Best Sellers"
     },
     {
        "id": 11,
-       "title": "prada Glasses",
-       "category": "Glasses",
+       "title": "Puma Top",
+       "category": "Dress",
        "price": 145.57,
        "image": "/images/glass.jpg",
+       "status": "Best Sellers"
+    },
+    {
+       "id": 12,
+       "title": "Nike baleng",
+       "category": "Shoes",
+       "price": 145.57,
+       "image": "/images/white-nike.jpg",
+       "status": "Best Sellers"
+    },
+    {
+       "id": 13,
+       "title": "Addidas baleng",
+       "category": "Shoes",
+       "price": 145.57,
+       "image": "/images/red-addidas.jpg",
+       "status": "Best Sellers"
+    },
+    {
+       "id": 14,
+       "title": "Ralf lawren",
+       "category": "Shoes",
+       "price": 145.57,
+       "image": "/images/pancheke.jpg",
        "status": "Best Sellers"
     }
 ]

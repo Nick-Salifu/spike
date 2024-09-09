@@ -73,7 +73,7 @@ function Products() {
                         <button onClick={showAll}>All Items</button>
                         <button onClick={() => filterItems("Dress")}>Clothings</button>
                         <button onClick={() => filterItems("Hoodies")}>Hoodies</button>
-                        <button onClick={() => filterItems("Bags")}>Bags</button>
+                        <button onClick={() => filterItems("Shoes")}>Shoes</button>
                     </div>
 
                     <div className="flex justify-end mb-4 relative">
