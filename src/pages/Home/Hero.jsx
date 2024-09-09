@@ -8,7 +8,7 @@ function Hero() {
                 {/* left part of hero */}
                 <div className="md:w-1/2">
                     <h1 className="mb-5 text-5xl font-light">Collections</h1>
-                    <p className="max-w-md text-xl text-justify mb-7">Shop the latest trends, exclusive deals, and curated collections just for you. You can explore and shop many different collections from various brands here. You can hit the shop now button bellow and happy shopping</p>
+                    <p className="max-w-md text-xl mb-7">Shop the latest trends, exclusive deals, and curated collections just for you. You can explore and shop many different collections from various brands here. You can hit the shop now button below and start shopping. Happy shopping!</p>
                     <button className="flex items-center gap-2 px-6 py-2 font-semibold text-white rounded-sm bg-Black hover:bg-blue-500">
                         <FaShoppingBag className="inline-flex" />
                         Shop Now

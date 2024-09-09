@@ -22,7 +22,7 @@ const companyLogo = [
     {id: 4, img: <img src="/images/logo_four.jpg" alt="logo" />},
     {id: 5, img: <img src="/images/logo_three.jpg" alt="logo" />},
     {id: 6, img: <img src="/images/logo_two.jpg" alt="logo" />},
-    {id: 7, img: <img src="/images/logo_one.jpg" alt="logo" />},
+    {id: 7, img: <img src="/images/logo_four.jpg" alt="logo" />},
 ]
 
 function Category() {

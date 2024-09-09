@@ -23,6 +23,9 @@ function NewsLetter() {
                     <img src={woman} alt="" className="w-80" />
                 </Link>
                 <Link to="/">
+                    <img src={air} alt="" className="w-80" />
+                </Link>
+                <Link to="/">
                     <img src={black} alt="" className="w-80" />
                 </Link>
             </div>
