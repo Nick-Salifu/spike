@@ -18,17 +18,17 @@
     {
        "id": 3,
        "title": "Addidas hoodie",
-       "category": "Dress",
+       "category": "Hoodies",
        "price": 56.83,
-       "image": "/images/black.jpg",
-       "status": "New Arrivals"
+       "image": "/images/white-hoodie.jpg",
+       "status": "Best Sellers"
     },
     {
        "id": 4,
        "title": "Puma hoodie",
        "category": "Hoodies",
        "price": 65.53,
-       "image": "/images/black.jpg",
+       "image": "/images/double-hoodie.jpg",
        "status": "New Arrivals"
     },
     {
@@ -59,7 +59,7 @@
        "id": 8,
        "title": "Nico Deven",
        "category": "Glasses",
-       "price": 145.57,
+       "price": 55.57,
        "image": "/images/glass.jpg",
        "status": "Best Sellers"
     },
@@ -67,7 +67,7 @@
        "id": 9,
        "title": "Prada",
        "category": "Dress",
-       "price": 145.57,
+       "price": 30.57,
        "image": "/images/glass.jpg",
        "status": "New Arrivals"
     },
@@ -75,7 +75,7 @@
        "id": 10,
        "title": "Louboutin",
        "category": "Shoes",
-       "price": 145.57,
+       "price": 102.57,
        "image": "/images/female-fine.jpg",
        "status": "Best Sellers"
     },
@@ -83,7 +83,7 @@
        "id": 11,
        "title": "Red bottoms",
        "category": "Dress",
-       "price": 145.57,
+       "price": 86.57,
        "image": "/images/f-red-black.jpg",
        "status": "Best Sellers"
     },
@@ -91,7 +91,7 @@
        "id": 12,
        "title": "Nike baleng",
        "category": "Shoes",
-       "price": 145.57,
+       "price": 102.57,
        "image": "/images/white-nike.jpg",
        "status": "Best Sellers"
     },
@@ -99,7 +99,7 @@
        "id": 13,
        "title": "Addidas baleng",
        "category": "Shoes",
-       "price": 145.57,
+       "price": 44.57,
        "image": "/images/red-addidas.jpg",
        "status": "Best Sellers"
     },
@@ -107,7 +107,7 @@
        "id": 14,
        "title": "Prada Female",
        "category": "Shoes",
-       "price": 145.57,
+       "price": 45.57,
        "image": "/images/female-red.jpg",
        "status": "Best Sellers"
     },
@@ -115,7 +115,7 @@
        "id": 15,
        "title": "Addidas coal",
        "category": "Shoes",
-       "price": 145.57,
+       "price": 64.57,
        "image": "/images/black-addidas.jpg",
        "status": "Best Sellers"
     },
@@ -123,7 +123,7 @@
        "id": 16,
        "title": "Prada Female",
        "category": "Shoes",
-       "price": 145.57,
+       "price": 50.57,
        "image": "/images/female-flat.jpg",
        "status": "Best Sellers"
     },
@@ -131,8 +131,40 @@
        "id": 17,
        "title": "Ralf lawren",
        "category": "Shoes",
-       "price": 145.57,
+       "price": 68.57,
        "image": "/images/pancheke.jpg",
        "status": "Best Sellers"
+    },
+    {
+       "id": 18,
+       "title": "Givenchy hoodie",
+       "category": "Hoodies",
+       "price": 54.57,
+       "image": "/images/four-hoodie.jpg",
+       "status": "New Arrivals"
+    },
+    {
+       "id": 19,
+       "title": "Columns hoodie",
+       "category": "Hoddies",
+       "price": 83.57,
+       "image": "/images/sand-hoodie.jpg",
+       "status": "New Arrivals"
+    },
+    {
+       "id": 20,
+       "title": "Columns hoodie",
+       "category": "Hoodies",
+       "price": 100.57,
+       "image": "/images/onlywhite-hoodie.jpg",
+       "status": "Best Sellers"
+    },
+    {
+       "id": 21,
+       "title": "Columns hoodie",
+       "category": "Hoodies",
+       "price": 67.57,
+       "image": "/images/brown-hoodie.jpg",
+       "status": "New Arrivals"
     }
 ]
