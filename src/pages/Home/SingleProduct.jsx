@@ -34,11 +34,11 @@ function SingleProduct() {
                 </div>
                 <div className="mt-4 sm:mt-10">
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 h-max">
-                        <div>
+                        <div className="my-2">
                             <img src={image} alt="" className="w-full" />
                         </div>
                         <div>
-                            <h1 className="text-3xl font-semibold text-left capitalize my-6">{title}</h1>
+                            <h1 className="text-3xl font-semibold text-left capitalize">{title}</h1>
                             <p className="mt-3 text-base text-justify text-gray-600 sm:text-left sm:mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus a ea explicabo, porro alias eveniet harum impedit error corporis quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptas nihil impedit.</p>
 
                             <span className="text-yellow-400 flex my-2 text-xl gap-1 sm:my-4 items-center">
@@ -56,7 +56,7 @@ function SingleProduct() {
                                     <input type="number" name="price" id="price" defaultValue={1} required className="border border-gray-300 text-sm font-semibold mb-1 max-w-full w-full outline-none rounded-md m-0 py-3 px-4 focus:border-blue-500" />
                                 </div>
                                 <div className="w-full text-left my-4">
-                                    <button className="flex items-center justify-center gap-2 w-full bg-blue-500 px-4 py-3 font-bold text-white border border-blue-500 rounded-md ease-in-out duration-150 shadow-slate-600 hover:bg-white hover:text-blue-500 lg:m-0 md:px-6"><span>Confirm Order</span><FaArrowAltCircleRight /></button>
+                                    <button className="flex items-center justify-center gap-2 w-full bg-blue-500 px-4 py-3 font-bold text-white border border-blue-500 rounded-md ease-in-out duration-150 shadow-slate-600 hover:bg-white hover:text-blue-500 lg:m-0 md:px-6"><span>Add to Cart</span><FaArrowAltCircleRight /></button>
                                 </div>
                             </div>
                         </div>
