@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
 import black from "../../../public/images/black.jpg";
 import air from "../../../public/images/nike-air.jpg";
-import woman from "../../../public/images/woman.jpg"
+import woman from "../../../public/images/woman.jpg";
+import gold from "../../../public/images/gold-wrist.jpg";
+import white from "../../../public/images/onlywhite-hoodie.jpg";
+import glass from "../../../public/images/glass.jpg";
 
 
 function NewsLetter() {
@@ -17,16 +20,16 @@ function NewsLetter() {
                     <img src={woman} alt="" className="w-80" />
                 </Link>
                 <Link to="/">
+                    <img src={gold} alt="" className="w-80" />
+                </Link>
+                <Link to="/">
+                    <img src={glass} alt="" className="w-80" />
+                </Link>
+                <Link to="/">
                     <img src={air} alt="" className="w-80" />
                 </Link>
                 <Link to="/">
-                    <img src={woman} alt="" className="w-80" />
-                </Link>
-                <Link to="/">
-                    <img src={air} alt="" className="w-80" />
-                </Link>
-                <Link to="/">
-                    <img src={black} alt="" className="w-80" />
+                    <img src={white} alt="" className="w-80" />
                 </Link>
             </div>
 

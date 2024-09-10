@@ -41,10 +41,10 @@
     },
     {
        "id": 6,
-       "title": "Channel",
-       "category": "Dress",
-       "price": 120.55,
-       "image": "/images/woman.jpg",
+       "title": "Channel wristwatch",
+       "category": "Wristwatches",
+       "price": 450.55,
+       "image": "/images/gold-wrist.jpg",
        "status": "Best Sellers"
     },
     {
@@ -67,7 +67,7 @@
        "id": 9,
        "title": "Prada",
        "category": "Dress",
-       "price": 30.57,
+       "price": 30.54,
        "image": "/images/glass.jpg",
        "status": "New Arrivals"
     },
@@ -75,7 +75,7 @@
        "id": 10,
        "title": "Louboutin",
        "category": "Shoes",
-       "price": 102.57,
+       "price": 102.86,
        "image": "/images/female-fine.jpg",
        "status": "Best Sellers"
     },
@@ -83,7 +83,7 @@
        "id": 11,
        "title": "Red bottoms",
        "category": "Dress",
-       "price": 86.57,
+       "price": 86.09,
        "image": "/images/f-red-black.jpg",
        "status": "Best Sellers"
     },
@@ -91,7 +91,7 @@
        "id": 12,
        "title": "Nike baleng",
        "category": "Shoes",
-       "price": 102.57,
+       "price": 102.32,
        "image": "/images/white-nike.jpg",
        "status": "Best Sellers"
     },
@@ -99,7 +99,7 @@
        "id": 13,
        "title": "Addidas baleng",
        "category": "Shoes",
-       "price": 44.57,
+       "price": 44.33,
        "image": "/images/red-addidas.jpg",
        "status": "Best Sellers"
     },
@@ -107,7 +107,7 @@
        "id": 14,
        "title": "Prada Female",
        "category": "Shoes",
-       "price": 45.57,
+       "price": 45.43,
        "image": "/images/female-red.jpg",
        "status": "Best Sellers"
     },
@@ -115,7 +115,7 @@
        "id": 15,
        "title": "Addidas coal",
        "category": "Shoes",
-       "price": 64.57,
+       "price": 64.98,
        "image": "/images/black-addidas.jpg",
        "status": "Best Sellers"
     },
@@ -123,7 +123,7 @@
        "id": 16,
        "title": "Prada Female",
        "category": "Shoes",
-       "price": 50.57,
+       "price": 50.67,
        "image": "/images/female-flat.jpg",
        "status": "Best Sellers"
     },
@@ -131,7 +131,7 @@
        "id": 17,
        "title": "Ralf lawren",
        "category": "Shoes",
-       "price": 68.57,
+       "price": 68.12,
        "image": "/images/pancheke.jpg",
        "status": "Best Sellers"
     },
@@ -139,7 +139,7 @@
        "id": 18,
        "title": "Givenchy hoodie",
        "category": "Hoodies",
-       "price": 54.57,
+       "price": 54.22,
        "image": "/images/four-hoodie.jpg",
        "status": "New Arrivals"
     },
@@ -147,7 +147,7 @@
        "id": 19,
        "title": "Columns hoodie",
        "category": "Hoddies",
-       "price": 83.57,
+       "price": 83.45,
        "image": "/images/sand-hoodie.jpg",
        "status": "New Arrivals"
     },
@@ -155,7 +155,7 @@
        "id": 20,
        "title": "Columns hoodie",
        "category": "Hoodies",
-       "price": 100.57,
+       "price": 100.60,
        "image": "/images/onlywhite-hoodie.jpg",
        "status": "Best Sellers"
     },
@@ -163,8 +163,32 @@
        "id": 21,
        "title": "Columns hoodie",
        "category": "Hoodies",
-       "price": 67.57,
+       "price": 67.32,
        "image": "/images/brown-hoodie.jpg",
+       "status": "New Arrivals"
+    },
+    {
+       "id": 22,
+       "title": "Apple wristwatch",
+       "category": "Wristwatches",
+       "price": 200.00,
+       "image": "/images/apple-wrist.jpg",
+       "status": "New Arrivals"
+    },
+    {
+       "id": 23,
+       "title": "Spack wristwatch",
+       "category": "Wristwatches",
+       "price": 200.45,
+       "image": "/images/pinapple-wrist.jpg",
+       "status": "New Arrivals"
+    },
+    {
+       "id": 24,
+       "title": "Nike clauss",
+       "category": "Wristwatches",
+       "price": 285.56,
+       "image": "/images/fine-wrist.jpg",
        "status": "New Arrivals"
     }
 ]

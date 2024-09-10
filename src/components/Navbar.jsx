@@ -9,7 +9,7 @@ function Navbar() {
         {title: "Shoes & Flipflops", path: "/shoes&flipflops"},
         {title: "Hoodies & Sweatshirts", path: "/hoodies"},
         {title: "Wedding & Party", path: "/"},
-        {title: "Wristwatches", path: "/"},
+        {title: "Wristwatches", path: "/wristwatches"},
         {title: "Face cap & Head warmers", path: "/"},
     ]
 

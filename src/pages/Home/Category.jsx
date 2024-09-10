@@ -27,7 +27,7 @@ const companyLogo = [
 
 function Category() {
     return (
-        <div className="container px-4 mx-auto max-w-screen-2xl xl:px-28 py-28">
+        <div className="container px-4 mx-auto max-w-screen-2xl xl:px-28 py-2">
             <div>
                 <ul className="flex items-center justify-around">
                 <Swiper

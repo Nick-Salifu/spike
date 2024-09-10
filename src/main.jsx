@@ -7,6 +7,7 @@ import Home from './pages/Home/Home.jsx'
 import SingleProduct from './pages/Home/SingleProduct.jsx'
 import Shoes from './pages/Other pages/Shoes.jsx'
 import Hoodies from './pages/Other pages/Hoodies.jsx'
+import Wristwatches from './pages/Other pages/Wristwatches.jsx'
 
 
 const router = createBrowserRouter([
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/hoodies",
         element: <Hoodies />
+      },
+      {
+        path: "/wristwatches",
+        element: <Wristwatches />
       },
       {
         path: "/shop/:id",

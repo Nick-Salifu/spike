@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-function Shoes() {
+function Wristwatches() {
     const [items, setItems] = useState([])
 
     useEffect(() => {
@@ -9,7 +9,7 @@ function Shoes() {
             try {
                 const response = await fetch("/products.json");
                 const data = await response.json();
-                const product = data.filter((p) => p.category === "Shoes")
+                const product = data.filter((p) => p.category === "Wristwatches")
                 // console.log(product)
                 setItems(product)
             } catch (error) {
@@ -19,13 +19,11 @@ function Shoes() {
         fetchData();
     }, [])
 
-    
-
     return (
         <div className="mt-28 max-w-screen-2xl mx-auto container xl:px-28 px-4">
             <div className="py-5 max-w-7xl">
                 <div className="flex flex-col items-center text-center">
-                    <h1 className="title">Welcome to the shoes section</h1>
+                    <h1 className="title">Welcome to the Wristwatch section</h1>
                     <p className="max-w-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolore, accusantium minus pariatur vero dignissimos illum. Iusto eos in nobis quia veniam sint, enim deserunt! Lorem ipsum dolor sit amet.</p>
                 </div>
 
@@ -34,7 +32,7 @@ function Shoes() {
                         {items.map((item) => (
                             <div key={item.id}>
                                 <div>
-                                    <Link to={`/shop/${item.id}`}> 
+                                    <Link to={`/shop/${item.id}`}>
                                         <img src={item.image} alt="" />
                                     </Link>
                                 </div>
@@ -48,9 +46,8 @@ function Shoes() {
                     </div>
                 </div>
             </div>
-            
         </div>
     )
 }
 
-export default Shoes
+export default Wristwatches

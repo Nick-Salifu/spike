@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 function Hoodies() {
     const [items, setItems] = useState([])
@@ -31,7 +32,9 @@ function Hoodies() {
                         {items.map((item) => (
                             <div key={item.id}>
                                 <div>
-                                    <img src={item.image} alt="" />
+                                    <Link to={`/shop/${item.id}`}>
+                                        <img src={item.image} alt="" />
+                                    </Link>
                                 </div>
                                 <div className="flex items-center justify-between">
                                     <h1 className="text-xl font-semibold text-left capitalize my-6">{item.title}</h1>
