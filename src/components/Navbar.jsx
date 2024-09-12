@@ -8,9 +8,9 @@ function Navbar() {
         {title: "Clothings & Dresses", path: "/"},
         {title: "Shoes & Flipflops", path: "/shoes&flipflops"},
         {title: "Hoodies & Sweatshirts", path: "/hoodies"},
-        {title: "Wedding & Party", path: "/"},
+        {title: "Wedding & Party", path: "/weddings"},
         {title: "Wristwatches", path: "/wristwatches"},
-        {title: "Face cap & Head warmers", path: "/"},
+        {title: "Face cap & Head warmers", path: "/facecap"},
     ]
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,6 +18,7 @@ function Navbar() {
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen)
     }
+    
     const handleClickOutside = () => {
         setIsMenuOpen(false)
     }
@@ -25,10 +26,13 @@ function Navbar() {
     return (
         <header className="max-w-screen-2xl xl:px-28  absolute top-0 right-0 left-0">
             <nav className="flex items-center justify-between container md:py-4 pt-6 pb-3 px-4">
-                <IoIosSearch className="w-5 h-5 hidden text-Black md:block cursor-pointer" />
                 <h2 className="uppercase text-2xl font-semibold font-headerFont tracking-wider">
                     <Link to="/">Spike</Link>
                 </h2>
+                <form className="relative hidden md:block">
+                    <input type="search" className="xl:w-[28rem] md:w-72 px-4 py-1 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="search" />
+                    <IoIosSearch className="w-5 h-5 hidden text-Black md:block cursor-pointer absolute top-2 right-0 mr-1" />
+                </form>             
 
                 {/* account andd shopping */}
                 <div className="hidden sm:flex items-center gap-4 text-lg text-Black">
@@ -49,16 +53,15 @@ function Navbar() {
                         <FaCartPlus className="" />
                         <p>Cart</p>
                     </div> */}
-                    <div className="flex items-center gap-2 ">
+                    <Link to="/cart" className="flex items-center gap-2 ">
                         <div className="relative">
                             <FaCartPlus className="" />
                             <div className="bg-blue-500 h-4 w-4 flex items-center justify-center rounded-full z-10 absolute -top-[14px] -right-2 text-left">
                                 <p className=" text-xs text-white">0</p>
                             </div>
-                        </div>
-                       
+                        </div>                
                         <p>Cart</p>
-                    </div>
+                    </Link>
                 </div>
 
                 {/* navlinks for mobile device */}
@@ -97,7 +100,7 @@ function Navbar() {
 
             <div className="sm:hidden flex flex-col relative">
                 {isMenuOpen && <div onClick={handleClickOutside} className="h-full w-full bg-black/25 fixed top-0"></div>}
-                <ul className={`bg-Black fixed top-0 h-screen max-w-full transform transition-transform duration-700 delay-100 z-50 right-0 w-[60%] text-white px-4 py-2 rounded ${isMenuOpen ? "translate-x-0" : "translate-x-full"}`}>
+                <ul className={`bg-Black fixed top-0 h-screen max-w-full transform transition-transform duration-700 delay-100 z-50 right-0 w-[60%] text-white px-4 py-2 ${isMenuOpen ? "translate-x-0" : "translate-x-full"}`}>
                     <div className="flex justify-between items-center pt-4 pb-3">
                         <h2 className="uppercase text-2xl font-semibold font-headerFont tracking-wider">
                             <Link to="/">Spike</Link>

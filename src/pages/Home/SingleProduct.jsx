@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
 import { FaArrowAltCircleRight, FaStar } from "react-icons/fa";
 import { Link, useParams } from "react-router-dom"
+import { useCartStore } from "../../store/cartStore";
 
 function SingleProduct() {
     const { id } = useParams();
     const [products, setProducts] = useState([]);
+
+    const addToCart = useCartStore((state) => state.addToCart)
 
     useEffect(() => {
         const fetchData = async () => {
@@ -56,7 +59,10 @@ function SingleProduct() {
                                     <input type="number" name="price" id="price" defaultValue={1} required className="border border-gray-300 text-sm font-semibold mb-1 max-w-full w-full outline-none rounded-md m-0 py-3 px-4 focus:border-blue-500" />
                                 </div>
                                 <div className="w-full text-left my-4">
-                                    <button className="flex items-center justify-center gap-2 w-full bg-blue-500 px-4 py-3 font-bold text-white border border-blue-500 rounded-md ease-in-out duration-150 shadow-slate-600 hover:bg-white hover:text-blue-500 lg:m-0 md:px-6"><span>Add to Cart</span><FaArrowAltCircleRight /></button>
+                                    <button className="flex items-center justify-center gap-2 w-full bg-blue-500 px-4 py-3 font-bold text-white border border-blue-500 rounded-md ease-in-out duration-150 shadow-slate-600 hover:bg-white hover:text-blue-500 lg:m-0 md:px-6">
+                                        <span>Add to Cart</span>
+                                        <FaArrowAltCircleRight />
+                                    </button>
                                 </div>
                             </div>
                         </div>

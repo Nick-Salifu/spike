@@ -1,6 +1,7 @@
 import { FaShoppingBag } from "react-icons/fa"
 import woman from "../../../public/images/woman.jpg"
 
+
 function Hero() {
     return (
         <>

@@ -8,6 +8,9 @@ import SingleProduct from './pages/Home/SingleProduct.jsx'
 import Shoes from './pages/Other pages/Shoes.jsx'
 import Hoodies from './pages/Other pages/Hoodies.jsx'
 import Wristwatches from './pages/Other pages/Wristwatches.jsx'
+import Cart from './pages/Home/Cart.jsx'
+import FaceCap from './pages/Other pages/FaceCap.jsx'
+import Weddings from './pages/Other pages/Weddings.jsx'
 
 
 const router = createBrowserRouter([
@@ -30,6 +33,18 @@ const router = createBrowserRouter([
       {
         path: "/wristwatches",
         element: <Wristwatches />
+      },
+      {
+        path: "/facecap",
+        element: <FaceCap />
+      },
+      {
+        path: "/weddings",
+        element: <Weddings />
+      },
+      {
+        path: "/cart",
+        element: <Cart />
       },
       {
         path: "/shop/:id",

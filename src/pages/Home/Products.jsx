@@ -33,7 +33,7 @@ function Products() {
     // to show all products
     const showAll = () => {
         setFilteredItems(products);
-        setSelectedCategory("all")
+        setSelectedCategory("all");
     }
 
     // sorting functionality

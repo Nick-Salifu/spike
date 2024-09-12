@@ -25,10 +25,10 @@
     },
     {
        "id": 4,
-       "title": "Puma hoodie",
-       "category": "Hoodies",
+       "title": "Louboutin",
+       "category": "Shoes",
        "price": 65.53,
-       "image": "/images/double-hoodie.jpg",
+       "image": "/images/female-fine.jpg",
        "status": "New Arrivals"
     },
     {
@@ -65,18 +65,18 @@
     },
     {
        "id": 9,
-       "title": "Prada",
-       "category": "Dress",
+       "title": "Jad cap",
+       "category": "Face Cap",
        "price": 30.54,
-       "image": "/images/glass.jpg",
+       "image": "/images/red-w-cap.jpg",
        "status": "New Arrivals"
     },
     {
        "id": 10,
-       "title": "Louboutin",
-       "category": "Shoes",
+       "title": "Puma hoodie",
+       "category": "Hoodies",
        "price": 102.86,
-       "image": "/images/female-fine.jpg",
+       "image": "/images/double-hoodie.jpg",
        "status": "Best Sellers"
     },
     {
@@ -189,6 +189,70 @@
        "category": "Wristwatches",
        "price": 285.56,
        "image": "/images/fine-wrist.jpg",
+       "status": "New Arrivals"
+    },
+    {
+       "id": 25,
+       "title": "Clad bien",
+       "category": "Face Cap",
+       "price": 45.31,
+       "image": "/images/brown-hat.jpg",
+       "status": "New Arrivals"
+    },
+    {
+       "id": 26,
+       "title": "Gross warmer",
+       "category": "Face Cap",
+       "price": 33.59,
+       "image": "/images/fine-warmer.jpg",
+       "status": "New Arrivals"
+    },
+    {
+       "id": 27,
+       "title": "Slate hat",
+       "category": "Face Cap",
+       "price": 54.50,
+       "image": "/images/sand-hat.jpg",
+       "status": "New Arrivals"
+    },
+    {
+       "id": 28,
+       "title": "Addidas cap",
+       "category": "Face Cap",
+       "price": 60.32,
+       "image": "/images/red-cap.jpg",
+       "status": "New Arrivals"
+    },
+    {
+       "id": 28,
+       "title": "Spike warmer",
+       "category": "Face Cap",
+       "price": 50.90,
+       "image": "/images/blue-warmer.jpg",
+       "status": "New Arrivals"
+    },
+    {
+       "id": 29,
+       "title": "Summer gown",
+       "category": "Wedding gown",
+       "price": 150.30,
+       "image": "/images/wedding1.jpg",
+       "status": "New Arrivals"
+    },
+    {
+       "id": 30,
+       "title": "Autum gown",
+       "category": "Wedding gown",
+       "price": 145.76,
+       "image": "/images/wedding2.jpg",
+       "status": "New Arrivals"
+    },
+    {
+       "id": 31,
+       "title": "Winter gown",
+       "category": "Wedding gown",
+       "price": 250.60,
+       "image": "/images/wedding3.jpg",
        "status": "New Arrivals"
     }
 ]
