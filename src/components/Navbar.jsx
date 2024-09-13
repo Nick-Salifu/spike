@@ -36,15 +36,15 @@ function Navbar() {
 
                 {/* account andd shopping */}
                 <div className="hidden sm:flex items-center gap-4 text-lg text-Black">
-                    <div className="flex items-center gap-2">
+                    <NavLink to="/login" className="flex items-center gap-2 hover:text-blue-500">
                         <FaUser />
                         <p>Account</p>
-                    </div>
+                    </NavLink>
 
-                    <div className="flex items-center gap-2">
+                    <NavLink to="/shopping" className="flex items-center gap-2 hover:text-blue-500">
                         <FaShoppingBag />
                         <p>Shopping</p>
-                    </div>
+                    </NavLink>
 
                     {/* <div className="flex items-center gap-2 relative">
                         <div className="bg-blue-500 h-4 w-4 flex items-center justify-center rounded-full z-10 absolute top-3 right-5 text-left">
@@ -53,15 +53,15 @@ function Navbar() {
                         <FaCartPlus className="" />
                         <p>Cart</p>
                     </div> */}
-                    <Link to="/cart" className="flex items-center gap-2 ">
+                    <NavLink to="/cart" className="flex items-center gap-2 hover:text-blue-500">
                         <div className="relative">
                             <FaCartPlus className="" />
-                            <div className="bg-blue-500 h-4 w-4 flex items-center justify-center rounded-full z-10 absolute -top-[14px] -right-2 text-left">
-                                <p className=" text-xs text-white">0</p>
+                            <div className="bg-blue-500 h-[15px] w-[15px] flex items-center justify-center rounded-full z-10 absolute -top-[14px] -right-2 text-left">
+                                <p className=" text-[11px] text-white">0</p>
                             </div>
                         </div>                
                         <p>Cart</p>
-                    </Link>
+                    </NavLink>
                 </div>
 
                 {/* navlinks for mobile device */}

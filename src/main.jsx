@@ -11,6 +11,8 @@ import Wristwatches from './pages/Other pages/Wristwatches.jsx'
 import Cart from './pages/Home/Cart.jsx'
 import FaceCap from './pages/Other pages/FaceCap.jsx'
 import Weddings from './pages/Other pages/Weddings.jsx'
+import Shopping from './pages/Home/Shopping.jsx'
+import Login from './pages/Home/Login.jsx'
 
 
 const router = createBrowserRouter([
@@ -45,6 +47,14 @@ const router = createBrowserRouter([
       {
         path: "/cart",
         element: <Cart />
+      },
+      {
+        path: "/shopping",
+        element: <Shopping />
+      },
+      {
+        path: "/login",
+        element: <Login />
       },
       {
         path: "/shop/:id",
