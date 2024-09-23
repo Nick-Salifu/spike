@@ -1,4 +1,5 @@
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
+import { Link } from "react-router-dom"
 
 function Footer() {
     return (
@@ -26,7 +27,9 @@ function Footer() {
                 <div>
                     <h3 className="text-xl font-semibold mb-5 uppercase">Customer Service</h3>
                     <ul className="text-md text-Black cursor-pointer flex flex-col gap-2">
-                        <li>Contact Us</li>
+                        <Link to="/contact">
+                            <li>Contact Us</li>
+                        </Link>
                         <li>Track Order</li>
                         <li>Product Care & repair</li>
                         <li>Book and Appointment</li>

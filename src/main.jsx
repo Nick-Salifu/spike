@@ -13,6 +13,7 @@ import FaceCap from './pages/Other pages/FaceCap.jsx'
 import Weddings from './pages/Other pages/Weddings.jsx'
 import Shopping from './pages/Home/Shopping.jsx'
 import Login from './pages/Home/Login.jsx'
+import Contact from './pages/Other pages/Contact.jsx'
 
 
 const router = createBrowserRouter([
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <Login />
+      },
+      {
+        path: "/contact",
+        element: <Contact />
       },
       {
         path: "/shop/:id",

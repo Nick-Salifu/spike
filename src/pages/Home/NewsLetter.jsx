@@ -37,7 +37,7 @@ function NewsLetter() {
                 <h2 className="title mb-8">Or subscribe to the newsletter</h2>
                 <form className="md:w-1/2 mx-auto text-center">
                     <input type="email" name="email" id="email" placeholder="Enter your E-mail.." className="h-8 bg-transparent outline-none border-b-2 border-black w-full md:w-2/3 mb-5 placeholder:text-black/50 mr-4" />
-                    <input type="submit" value={"Submit"} className="text-white bg-black py-1 px-6 rounded-sm" />
+                    <input type="submit" value={"Submit"} className="text-white bg-black py-1 px-6 rounded-sm cursor-pointer" />
                 </form>
             </div>
         </div>

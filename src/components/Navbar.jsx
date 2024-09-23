@@ -65,7 +65,7 @@ function Navbar() {
                 </div>
 
                 {/* navlinks for mobile device */}
-                <div className="sm:hidden cursor-pointer">
+                <div className="lg:hidden cursor-pointer">
                     <button onClick={toggleMenu}>
                         {
                             isMenuOpen ? <FaTimes className="w-5 h-5 text-Black" /> : <FaBars className="w-5 h-5 text-Black" />
@@ -78,7 +78,7 @@ function Navbar() {
 
             {/* the nav links */}
             <div className="mt-4">
-                <ul className="hidden lg:flex justify-between items-center text-Black">
+                <ul className="hidden xl:flex justify-between items-center text-Black">
                     {navLinks.map(({title, path}) => (
                         <li key={title} className="hover:text-blue-500">
                             <NavLink to={path}>{title}</NavLink>
